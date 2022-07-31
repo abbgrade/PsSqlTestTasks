@@ -6,7 +6,6 @@
 
 ```powershell
 Install-PsBuildExtension `
-    -Path $PSScriptRoot/.. `
-    -Name PsSqlTestTasks `
+    -Path . `
     -Repository 'https://github.com/abbgrade/PsSqlTestTasks.git'
 ```
